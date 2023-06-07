@@ -5,6 +5,25 @@ import (
 	"rsc.io/quote"
 )
 
+// Declaración de constantes
+const (
+	Pi  float32 = 3.14
+	Pi2         = 3.14
+	x           = 100
+	y           = 0b1010 //Binario
+	z           = 0o12   //Octal
+	w           = 0xFF   //Hexadecimal
+)
+
+const (
+	Doming = iota + 1
+	Lunes
+	Martes
+	Miercoles
+	Jueves
+	Viernes
+)
+
 /*var (
 	firstName string = "Christian Alberto"
 	lastName  string = "Tamayo Robayo"
@@ -53,4 +72,8 @@ func main() {
 
 	fmt.Println(firstName, lastName, age)
 
+	fmt.Println(Pi, Pi2)
+	fmt.Println(x, y, z, w)
+
+	fmt.Println(Viernes)
 }
