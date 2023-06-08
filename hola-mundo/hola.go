@@ -22,6 +22,7 @@ const (
 	Miercoles
 	Jueves
 	Viernes
+	Sabado
 )
 
 /*var (
